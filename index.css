@@ -1,0 +1,93 @@
+input[type=checkbox] {
+    transform: scale(1.5) !important;
+}
+.mailPart{
+    padding: 30px;
+    border: 1px solid black;
+
+}
+.mailPart .toPart{
+    padding-bottom: 20px;
+}
+.mailPart .fromPart{
+    padding-bottom: 20px;
+}
+.mailPart .help{
+    font-size: 12px;
+}
+.mailPart .subPart{
+    padding-bottom: 20px;
+}
+.mailPart .subPart .field-body .label{
+    font-weight: 400;
+}
+.mailPart .subPart span{
+    font-weight: 700;
+}
+.mailPart .msgPart{
+    padding-bottom: 20px;
+}
+.mailPart .checkboxPart{
+    padding-bottom:20px; ;
+}
+.mailPart .checkboxPart .checkbox{
+
+}
+.mailPart .captchaImage{
+    display: inline-block;
+    float: right;
+    margin-top: -4px;
+    margin-right: 5px;
+}
+.mailPart .checkboxPart .control {
+    width: 260px;
+    overflow: hidden;
+    padding: 15px 0px 10px 0px;
+    background: linear-gradient(to bottom,#eee 0,#eee 71%,#dddddd 100%);
+
+}
+.mailPart .checkboxPart .checkbox {
+    padding: 17px 0px 0px 0px;
+    margin-left: 10px;
+}
+.mailPart .checkboxPart .checkbox input {
+    margin-right: 8px;
+}
+.mailPart .navDown .invoiceattachedPart{
+    display: inline-block;
+}
+.mailPart .navDown .sendPart{
+    display: inline-block;
+    float: right;
+    margin-top: -5px;
+ }
+.mailPart .navDown .sendemailPart{
+    display: inline-block;
+    float: right;
+    padding-right: 20px;
+}
+@media only screen and (max-width: 580px){
+    .mailPart .navDown .invoiceattachedPart{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .mailPart .navDown .sendemailPart{
+
+        float: left;
+
+    }
+    .mailPart .navDown .sendPart{
+
+        float: right;
+    }
+    .mailPart .navDown .sendPart .button{
+
+        padding: 0px 25px;
+
+    }
+    .mailPart .navDown {
+        margin-bottom: 30px;
+    }
+}
